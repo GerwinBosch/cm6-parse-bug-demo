@@ -27,6 +27,7 @@ Trying to fold the `foo` function would not fold the entire function body. It wo
 
 (Note: in our specific case, this problem manifested with large LaTeX environments, like `\begin{document}...\end{document}`, containing lots of comment lines, which is fairly normal for realistic LaTeX code. However, the bug is evident in other similar constructs like brace-delimited blocks, or xml tags, and so on.)
 
+
 ### Hypothesis
 
 It seems that the parser is getting tripped up on having so many "skip" nodes, and giving up with an incomplete parse tree. The `foldInside` prop then cannot accurately fold the contents of the function body, leading to the observed behaviour.
@@ -48,6 +49,15 @@ See `src/lang/problem/no-problem.grammar` for what that looks like, and the foll
 ![good behaviour](./good-fold.gif)
 
 This work-arould leads me to believe the issue must lie in how either CodeMirror or lezer behaves when working in incremental mode, with a lot of "skip" nodes.
+
+
+### Other observations
+
+We also observed the following:
+
+- The issue is not triggered when the content of the block is shorter. There seems to be some critical threshold of "skip" nodes at which the issue happens.
+
+- If we scroll around the document, and then try to fold the region, _sometimes_ this leads to the issue not being triggered (although not consistently, in my testing).
 
 
 ## Important files
