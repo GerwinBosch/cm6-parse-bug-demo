@@ -12,7 +12,7 @@ async function createEditor() {
       doc: docData,
       extensions: [basicSetup, language()],
     }),
-    parent: document.body,
+    parent: document.querySelector('#editor'),
   })
 }
 
