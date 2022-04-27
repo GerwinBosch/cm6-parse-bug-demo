@@ -2,8 +2,38 @@
 
 ## The Problem 
 
+At Overleaf, while working on a lezer parser for LaTeX, we stumbled on an apparent bug in the interaction of lezer with code-mirror. This bug manifests when we have a foldable region of the document, which contains a lot of "skip" nodes, such as `Comment` or `Whitespace`. In this case, when we click on the fold marker in the gutter, the fold only covers a small region of text, and seems to end at an erroneous syntax error. 
+
+Parsing the same document, with the same lezer parser, from a node process (feeding it the entire document as a string), does not yield any parse errors.
+
+For example, say we have a function body containing lots of comments:
+
+```
+foo() {
+  x = 1;
+  // bar
+  // baz
+  // quux
+  <and so on for a few hundred lines>
+  return true;
+}
+```
+
+Trying to fold the `foo` function would not fold the entire function body. It seems that the parser is getting tripped up on having so many "skip" nodes, and giving up with an incomplete parse tree. The `foldInside` prop then cannot accurately fold the contents of the function body, leading to the observed behaviour.
+
+### Minimal Reproduction
+
+In this repository, I have created a minimal reproduction of the issue, using a simple grammar for a `problem` language.
+
+Here is a demonstration in gif format:
+
+![demonstration](./fold-problem-demo.gif)
+
 
 ### Work-arounds
+
+We find that the problem can be worked around by removing the "skip" rule on Comment, and adding Comment to the grammar in places where it could be valid.
+
 
 
 ## Important files
