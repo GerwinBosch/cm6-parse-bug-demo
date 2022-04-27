@@ -32,8 +32,13 @@ Here is a demonstration in gif format:
 
 ### Work-arounds
 
-We find that the problem can be worked around by removing the "skip" rule on Comment, and adding Comment to the grammar in places where it could be valid.
+We find that the problem can be worked around by removing the "skip" rule on Comment, and adding Comment to the grammar in places where it could be valid. With this change, the issue with folding disappears.
 
+See `src/lang/problem/no-problem.grammar` for what that looks like, and the following gif for a demonstration:
+
+![good behaviour](./good-fold.gif)
+
+This work-arould leads me to believe the issue must lie in how either CodeMirror or lezer behaves when working in incremental mode, with a lot of "skip" nodes.
 
 
 ## Important files

@@ -1,0 +1,17 @@
+// This grammar does not use skip rule on comments
+
+@tokens {
+  Word { $[a-zA-Z]+ }
+  Whitespace { std.whitespace+ }
+  OpenBrace { "{" }
+  CloseBrace { "}" }
+  Comment { "%" ![\n]* "\n"? }
+}
+
+@skip { Whitespace }
+
+@top Program { (Comment | Block)* }
+
+Block { Word OpenBrace BlockContent CloseBrace }
+
+BlockContent { (Comment | Word)* }
