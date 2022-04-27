@@ -1,5 +1,10 @@
-% comment here
+% This file demonstrates a problem with folding, and/or parsing.
+% Try to fold the block below. It will not fold the entire block, because of
+% an apparent parse error, which does not happen when using the parser
+% on a file directly from node.js
+
 FoldMe {
+    foobar hello this is a test
     % Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
     % incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id
     % interdum velit. Dictum at tempor commodo ullamcorper a lacus vestibulum. Massa
