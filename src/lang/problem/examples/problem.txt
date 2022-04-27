@@ -51,6 +51,7 @@ FoldMe {
     % vulputate sapien nec.
 
     foobar
+
     % Nullam eget felis eget nunc. Quisque egestas diam in arcu cursus euismod quis.
     % Ut tristique et egestas quis ipsum. Nascetur ridiculus mus mauris vitae
     % ultricies leo integer. Vitae congue eu consequat ac. Pulvinar neque laoreet
@@ -66,85 +67,6 @@ FoldMe {
     % felis bibendum. Eget nunc scelerisque viverra mauris in. Auctor neque vitae
     % tempus quam pellentesque nec nam aliquam sem. Ac odio tempor orci dapibus
     % ultrices in iaculis. Praesent tristique magna sit amet purus gravida quis
-
-    % blandit turpis. Scelerisque varius morbi enim nunc faucibus a. Orci a
-    % scelerisque purus semper eget. Pellentesque elit ullamcorper dignissim cras
-    % tincidunt. In nulla posuere sollicitudin aliquam. Iaculis nunc sed augue lacus
-    % viverra vitae congue eu. Vestibulum morbi blandit cursus risus at ultrices mi
-    % tempus imperdiet. Rhoncus est pellentesque elit ullamcorper dignissim.
-
-    % Amet aliquam id diam maecenas ultricies mi eget. Sagittis id consectetur purus
-    % ut faucibus pulvinar elementum. Faucibus nisl tincidunt eget nullam non nisi est
-    % sit amet. Leo urna molestie at elementum. Hac habitasse platea dictumst quisque
-    % sagittis purus. Auctor eu augue ut lectus arcu. Mattis rhoncus urna neque
-
-    % viverra. Nullam vehicula ipsum a arcu cursus vitae congue. Est sit amet
-    % facilisis magna. Tempus imperdiet nulla malesuada pellentesque elit.
-    % Pellentesque nec nam aliquam sem et. Urna nunc id cursus metus aliquam eleifend
-
-    % mi in nulla. Convallis posuere morbi leo urna molestie at elementum. Tincidunt
-    % eget nullam non nisi est. Mi bibendum neque egestas congue quisque egestas. Id
-    % aliquet risus feugiat in.
-
-    % Sodales neque sodales ut etiam sit amet. Blandit cursus risus at ultrices mi
-    % tempus. A cras semper auctor neque vitae tempus quam. Gravida dictum fusce ut
-    % placerat orci nulla. Pretium aenean pharetra magna ac placerat vestibulum. Dui
-
-    % nunc mattis enim ut tellus elementum sagittis. Et pharetra pharetra massa massa
-    % ultricies. Accumsan in nisl nisi scelerisque eu ultrices vitae. Cursus vitae
-    % congue mauris rhoncus aenean vel elit scelerisque mauris. Risus in hendrerit
-    % gravida rutrum quisque non. Lacinia at quis risus sed vulputate odio ut enim.
-
-    % Mattis rhoncus urna neque viverra justo. Augue ut lectus arcu bibendum at
-    % varius. Nisi vitae suscipit tellus mauris a diam maecenas sed. Lacus suspendisse
-    % faucibus interdum posuere lorem ipsum dolor. Id porta nibh venenatis cras sed.
-
-    % Ultrices eros in cursus turpis massa tincidunt dui ut. Habitant morbi tristique
-    % senectus et netus et malesuada fames. Egestas tellus rutrum tellus pellentesque
-    % eu tincidunt tortor. Massa sed elementum tempus egestas sed. Commodo quis
-    % imperdiet massa tincidunt. A erat nam at lectus urna. Pellentesque id nibh
-
-    % tortor id aliquet lectus proin nibh. Dui faucibus in ornare quam viverra orci
-    % sagittis. Laoreet suspendisse interdum consectetur libero id faucibus nisl
-    % tincidunt eget. Arcu ac tortor dignissim convallis aenean et tortor at risus.
-    % Praesent tristique magna sit amet purus gravida quis.
-
-    % Neque convallis a cras semper auctor neque vitae tempus. Sit amet justo donec
-    % enim diam vulputate ut. Est ultricies integer quis auctor elit sed vulputate mi
-    % sit. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Nullam
-
-    % eget felis eget nunc lobortis mattis aliquam. Ornare suspendisse sed nisi lacus.
-    % Turpis egestas integer eget aliquet nibh. Consectetur libero id faucibus nisl
-    % tincidunt eget nullam. Aliquet nec ullamcorper sit amet risus nullam eget felis.
-    % Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
-    % Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Amet nisl
-
-    % suscipit adipiscing bibendum est. Elit ullamcorper dignissim cras tincidunt.
-
-    % Duis convallis convallis tellus id interdum velit laoreet id. Quam pellentesque
-    % nec nam aliquam. Dui id ornare arcu odio ut sem nulla pharetra diam. Integer
-    % malesuada nunc vel risus. Sed odio morbi quis commodo odio aenean sed adipiscing
-
-    % diam. Pretium quam vulputate dignissim suspendisse in est ante. Eu tincidunt
-    % tortor aliquam nulla facilisi cras. Ut venenatis tellus in metus vulputate eu
-    % scelerisque felis imperdiet. Tellus in hac habitasse platea dictumst. Magna
-    % fringilla urna porttitor rhoncus dolor purus non. Egestas pretium aenean
-    % pharetra magna ac placerat vestibulum. Eu volutpat odio facilisis mauris sit
-    % amet massa vitae. Egestas sed sed risus pretium quam. Eu mi bibendum neque
-    % egestas. Suspendisse in est ante in nibh mauris cursus. Arcu risus quis varius
-    % quam. Nunc sed augue lacus viverra. Mi eget mauris pharetra et ultrices neque.
-
-    % Quis risus sed vulputate odio ut enim blandit volutpat. Sem et tortor consequat
-    % id porta nibh venenatis cras sed.
-
-    foobar
-
-    % Turpis cursus in hac habitasse platea. Sed id semper risus in hendrerit gravida
-    % rutrum quisque non. Scelerisque eu ultrices vitae auctor eu augue ut lectus
-    % arcu. Turpis tincidunt id aliquet risus feugiat in ante. Tortor aliquam nulla
-    % facilisi cras fermentum. Pellentesque elit ullamcorper dignissim cras tincidunt
-    % lobortis feugiat. Turpis nunc eget lorem dolor. At auctor urna nunc id cursus
-    % metus. Ipsum dolor sit amet consectetur adipiscing elit ut. Donec adipiscing
-    % tristique risus nec feugiat in fermentum posuere. Id consectetur purus ut
+    end here
 }
 goodBlock { hello there }
