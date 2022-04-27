@@ -147,3 +147,4 @@ FoldMe {
     % metus. Ipsum dolor sit amet consectetur adipiscing elit ut. Donec adipiscing
     % tristique risus nec feugiat in fermentum posuere. Id consectetur purus ut
 }
+goodBlock { hello there }
