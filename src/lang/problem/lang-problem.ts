@@ -6,11 +6,11 @@ import { syntaxTree } from '@codemirror/language';
 function lintExample(view) {
     const diagnostics = [];
     syntaxTree(view.state).iterate({
-        enter: (type, from, to) => {
-            if (type.isError) {
+        enter: (node) => {
+            if (node.type.isError) {
                 diagnostics.push({
-                    from,
-                    to,
+                    from: node.from,
+                    to: node.to,
                     severity: 'error',
                     message: 'syntax error',
                 });

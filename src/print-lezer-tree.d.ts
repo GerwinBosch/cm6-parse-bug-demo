@@ -17,7 +17,7 @@ declare type TreeTraversalOptions = {
     to?: number;
     includeParents?: boolean;
 } & TreeTraversal;
-export declare function traverseTree(cursor: TreeCursor | Tree | SyntaxNode, { from, to, includeParents, beforeEnter, onEnter, onLeave, }: TreeTraversalOptions): void;
+export declare function traverseTree(cursor: any, { from, to, includeParents, beforeEnter, onEnter, onLeave, }: TreeTraversalOptions): void;
 export declare function validatorTraversal(input: Input | string, { fullMatch }?: {
     fullMatch?: boolean;
 }): {

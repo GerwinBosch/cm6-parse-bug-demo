@@ -23,7 +23,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import { Text } from "@codemirror/text"
+import { Text } from "@codemirror/state"
 import { Input, NodeType, SyntaxNode, Tree, TreeCursor } from "@lezer/common"
 
 class StringInput implements Input {
@@ -78,7 +78,7 @@ type TreeTraversalOptions = {
 } & TreeTraversal
 
 export function traverseTree(
-  cursor: TreeCursor | Tree | SyntaxNode,
+  cursor,
   {
     from = -Infinity,
     to = Infinity,
