@@ -39,9 +39,9 @@ In this repository, I have created a minimal reproduction of the issue, using a 
 See the later instructions on how to run the parser on the command line, and how to run a CodeMirror editor with the parser loaded up.
 
 
-### Work-arounds
+### Debugging
 
-We find that the problem can be worked around by removing the "skip" rule on Comment, and adding Comment to the grammar in places where it could be valid. With this change, the issue with folding disappears, and the parser does not produce any errors.
+We tried removing the "skip" rule on Comment, and adding Comment to the grammar in places where it could be valid. With this change, the issue with folding disappears, and the parser does not produce any errors. However, this change is not really viable, as it would require adding 'Comment' to every location in the grammar where it could occur.
 
 See `src/lang/problem/no-problem.grammar` for what that looks like, and the following gif for a demonstration:
 
@@ -64,13 +64,13 @@ This work-arould leads me to believe the issue must lie in how either CodeMirror
 To run the parser on the example file, and print the resulting tree in the terminal:
 
 ``` sh
-npm run demo src/lang/problem/examples/problem.txt | less
+npm run demo src/lang/problem/examples/problem.txt
 ```
 
 To start a web page with with the example text in an CodeMirror editor:
 
 ``` sh
-npm run build && npm run generate:problem && npm run start
+npm run generate:problem && npm run build && npm run start
 ```
 
 
