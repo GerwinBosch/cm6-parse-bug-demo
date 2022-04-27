@@ -1,0 +1,5 @@
+node_modules
+*.js
+!tokens.js
+!test/test-latex.js
+.log/

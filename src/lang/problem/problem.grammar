@@ -1,0 +1,15 @@
+@tokens {
+  Word { $[a-zA-Z]+ }
+  Whitespace { std.whitespace+ }
+  OpenBrace { "{" }
+  CloseBrace { "}" }
+  Comment { "%" ![\n]* "\n"? }
+}
+
+@skip { Comment | Whitespace }
+
+@top Program { Block* }
+
+Block { Word OpenBrace BlockContent CloseBrace }
+
+BlockContent { Word* }
