@@ -10,6 +10,9 @@
 
 - `src/lang/problem/problem.grammar`: A minimal grammar which demonstrates the problem
 - `src/lang/problem/examples/problem.txt`: An example program in the "problem" language, which triggers the problematic behaviour in a CodeMirror 6 editor
+- `src/lang/problem/lang-problem.ts`: A language module which uses the grammar
+- `src/editor.ts`: A CodeMirror 6 editor, loading the "problem" language
+- `src/run.ts`: A helper script to run the "problem" parser against a provided file, and print the resulting tree to the terminal
 
 
 ## Running the Code 
