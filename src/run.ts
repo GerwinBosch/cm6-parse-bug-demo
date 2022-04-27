@@ -2,9 +2,6 @@ import { readFileSync } from 'fs'
 import { logTree } from './print-lezer-tree'
 import { parser } from './lang/problem/problem.js'
 
-// show parse tree:     run.ts ./src/lang/latex/examples/amsmath.tex
-// show error summary:  run.ts coverage ./src/lang/latex/examples/amsmath.tex
-
 const files = process.argv.slice(2) || ['./src/lang/problem/examples/problem.tex']
 
 let coverage = false
