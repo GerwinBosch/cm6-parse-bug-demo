@@ -2,6 +2,7 @@ import { EditorState } from '@codemirror/state'
 import { EditorView, lineNumbers } from '@codemirror/view'
 import {
   foldGutter,
+  syntaxTree
 } from '@codemirror/language'
 
 import { langProblem, problemExample } from './lang/problem/lang-problem'
@@ -23,6 +24,9 @@ async function createEditor() {
     }),
     parent: document.querySelector('#editor'),
   })
+  window['__printTree'] = () => {
+    console.log(syntaxTree(editor.state).toString())
+  }
 }
 
 createEditor()
