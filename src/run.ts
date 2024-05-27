@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs'
-import { logTree } from './print-lezer-tree'
+import { logTree } from './print-lezer-tree.js'
 import { parser } from './lang/problem/problem.js'
 
 const files = process.argv.slice(2) || ['./src/lang/problem/examples/problem.tex']

@@ -1,18 +1,18 @@
 import { Input, NodeType, SyntaxNode, Tree, TreeCursor } from "@lezer/common";
 export declare function sliceType(cursor: TreeCursor, input: Input, type: number): string | null;
 export declare function isType(cursor: TreeCursor, type: number): boolean;
-export declare type CursorNode = {
+export type CursorNode = {
     type: NodeType;
     from: number;
     to: number;
     isLeaf: boolean;
 };
-export declare type TreeTraversal = {
+export type TreeTraversal = {
     beforeEnter?: (cursor: TreeCursor) => void;
     onEnter: (node: CursorNode) => false | void;
     onLeave?: (node: CursorNode) => false | void;
 };
-declare type TreeTraversalOptions = {
+type TreeTraversalOptions = {
     from?: number;
     to?: number;
     includeParents?: boolean;
@@ -31,7 +31,7 @@ export declare function validatorTraversal(input: Input | string, { fullMatch }?
 export declare function validateTree(tree: TreeCursor | Tree | SyntaxNode, input: Input | string, options?: {
     fullMatch?: boolean;
 }): boolean;
-declare type PrintTreeOptions = {
+type PrintTreeOptions = {
     from?: number;
     to?: number;
     start?: number;
